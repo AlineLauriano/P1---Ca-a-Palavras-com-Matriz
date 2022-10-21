@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: brightness(32%);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+h1{
+    color: rgb(201, 217, 248);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+img{
+    width: 200px;
+}
+
+table{
+    border-radius: 8px;
+    border: 8px solid #2F4F4F;
+    background-color: rgb(74, 137, 253);
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+td{
+    border: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
